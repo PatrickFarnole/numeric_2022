@@ -35,6 +35,7 @@ def main(arg):
     # Plot the actual and discretized dispersion relations
     plt.plot(kd, actual, kd, grid1, kd, grid2)
     plt.xlim((-np.pi, np.pi))
+#     plt.ylim((-0.005, 0.005))
     plt.legend(('Actual', 'Grid 1', 'Grid 2'), loc='upper center')
     plt.xlabel('$k d$')
     plt.ylabel('$\omega / f$')
